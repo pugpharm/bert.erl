@@ -1,0 +1,4 @@
+{application, bert_erl, 
+[{vsn, "0.3"},
+ {modules, [bert]}]
+}.
