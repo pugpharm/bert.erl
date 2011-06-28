@@ -1,4 +1,7 @@
 {application, bert_erl, 
-[{vsn, "0.3"},
- {modules, [bert]}]
+    [{vsn, "1.1.0"},
+     {modules, [bert]},
+     {applications, [kernel, std_lib]}
+    ]
+    
 }.
