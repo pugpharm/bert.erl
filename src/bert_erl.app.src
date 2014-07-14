@@ -1,6 +1,7 @@
 {application, bert_erl, 
     [{vsn, "1.1.0"},
      {modules, [bert]},
+     {registered, []},
      {applications, [kernel, stdlib]},
      {description, "BERT encoder/decoder"}
     ]
